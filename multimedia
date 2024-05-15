@@ -1,0 +1,18 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style
+
+</head>
+<body>
+    <div>
+    <img src="./images/w1.jpg" height="100px" width="100px">
+    <img src="./images/w2.jpg" height="100px" width="100px">
+    <img src="./images/w3.jpg" height="100px" width="100px">
+    <img src="./images/w4.jpg" height="100px" width="100px">
+    <img src="./images/w5.jpg" height="100px" width="100px">
+    </div>
+</body>
+</html>
