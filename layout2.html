@@ -3,114 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Burger</title>
-    <style>
-       head {
-            border: 2px solid black;
-            height: 200vh;
-            width: 100vw;
-            position: relative;
-            overflow: scroll;
-        
-        }
-        .c1{
-            height: 10%;
-            width : 100%;
-            position: fixed;
-            z-index:1;
-        }
-        .id1{
-        position:absolute;
-        left:70%;
-        text-decoration: none;
-        color: black;
-     }
-     .id2{
-        position:absolute;
-        left:80%;
-        text-decoration: none;
-        color: black;
-     }
-     .id3{
-        position:absolute;
-        left:90%;
-        text-decoration: none;
-        color: black;
-     }
-     /* .id4{
-        position:absolute;
-        left:80%;
-        text-decoration: none;
-        color: black;
-     } */
-     .im{
-        position: absolute;
-        top: 5%;   
-     }
-     .sec{
-
-     }
-  .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.f{
-    font-size: 300%;
-}
-.c{
-    height:2%;
-    width:100%;
-}
-h4 {
-    position: absolute;
-    top: 125%;
-}
-.tl {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-</style>
-</head>
+    <title>BRArchitect</title>
+    <link rel="stylesheet" href="layout2.css">
 <body>
-    <nav>
-        <div style="background-color: white;">
-        <div class="c1">
-         <a><b>B R</b>  A r c h i t e c t s</a> 
-         <div class="c1">
-            <a class="id1" href="#">P r o j e c t s</a>
-            <a class="id2" href="#">A b o u t</a>
-            <a class="id3" href="#">C o n t a c t</a>
+    <div class="nav1">
+        <a class="id1"><b>B R</b>  A r c h i t e c t s</a> 
+        <a class="id2" href="#projects" >P r o j e c t s</a>
+        <a class="id3" href="#about">A b o u t</a>
+        <a class="id4" href="#contact">C o n t a c t</a>
         </div>
-        </div>
-    </div>
-    </nav>
-    <section>
+
+
+     <div class="div1">
+    <section class="sec3">
         <div class="im">
             <img src="https://www.w3schools.com/w3images/architect.jpg">
             <div class="centered f"><b style="background-color: black;color:white;">B R</b> A r c h i t e c t s</div>
         </div>
     </section>
 
-    <h4>Projects</h4> <br><br>
-    <table class="tab">
-        <tr>
-            <img src="https://www.w3schools.com/w3images/house5.jpg">
-            <div class="tl"><b style="background-color: black;color:white;">Summer House</b></div>
-            <img src="https://www.w3schools.com/w3images/house2.jpg">
-            <img src="https://www.w3schools.com/w3images/house3.jpg">
-            <img src="https://www.w3schools.com/w3images/house4.jpg">
-    
-             <img src="https://www.w3schools.com/w3images/house2.jpg">
-            <img src="https://www.w3schools.com/w3images/house5.jpg">
-            <img src="https://www.w3schools.com/w3images/house4.jpg">
-            <img src="https://www.w3schools.com/w3images/house3.jpg"> 
-        </tr>
-    </table>
-    
+
+  <section  class="h">
+    <div id="projects"><a>Projects</a>
+    </div> 
+
+    <div class="c">
+        <div style="display:inline;">
+            <img src="https://www.w3schools.com/w3images/house5.jpg" style="margin:0.5%;height:23%;width:23%">
+            <div class="s1"><span>Summer House</span></div>
+        </div>
+        <div style="display:inline">
+            <img src="https://www.w3schools.com/w3images/house2.jpg" style="margin:0.5%;height:23%;width:23%;">
+            <div class="s2"><span>Brick House</span></div>
+        </div>
+        <div style="display:inline">
+            <img src="https://www.w3schools.com/w3images/house3.jpg" style="margin:0.5%;height:23%;width:23%">
+            <div class="s3"><span>Renovated</span></div>
+        </div>
+        <div style="display:inline">
+    <img src="https://www.w3schools.com/w3images/house4.jpg" style="margin:0.5%;height:23%;width:23%">
+    <div class="s4"><span>Barn House</span></div>
+    </div>
+    <div style="display:inline">
+    <img src="https://www.w3schools.com/w3images/house2.jpg" style="margin:0.5%;height:23%;width:23%">
+    <div class="s5"><span>Summer House</span></div>
+    </div>
+    <div style="display:inline">
+    <img src="https://www.w3schools.com/w3images/house5.jpg" style="margin:0.5%;height:23%;width:23%"">
+    <div class="s6"><span>Brick House</span></div>
+    </div>
+    <div  style="display:inline">
+    <img src="https://www.w3schools.com/w3images/house4.jpg" style="margin:0.5%;height:23%;width:23%">
+    <div class="s7"><span>Renovated</span></div>
+    </div>
+    <div style="display:inline">
+    <img src="https://www.w3schools.com/w3images/house3.jpg" style="margin:0.5%;height:23%;width:23%">
+    <div class="s8"><span>Barn House</span></div>
+</div>
+</div>
+</section>
+
+
+
+<section class="h5">
+<div id="about"><a>About</a><hr> 
+    <pre class="pre">
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+ nisi ut aliquip ex ea commodo consequat.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+ eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </pre>
+</div>
+</section>
+
+
+
+
+<section class="w5">
+<div>
+    <div class="w0">
+        <img src="https://www.w3schools.com/w3images/team2.jpg" style="margin:0.5%;height:250px;width:350px"><br>
+        <span>John Doe<span><br><br>
+                <span style="background-color: aliceblue;color:rgb(145, 141, 141)">CEO & Founder</span>
+                <pre style="font-size:13px">
+ Phasellus eget enim eu lectus faucibus 
+ vestibulum.Suspendisse sodales
+ pellentesque elementum.
+     </pre>
+                <button style="width:20%;height:1%;margin-top:-4%;outline-color: white;color:rgb(145, 141, 141);">Contact</button>
+    </div>
+    <div class="w1">
+        <img src="https://www.w3schools.com/w3images/team1.jpg" style="margin:0.5%;height:250px;width:350px"><br>
+        <span>Jane Doe<span><br><br>
+       <span style="background-color: aliceblue;color:rgb(145, 141, 141)">Architect</span>
+     <pre style="font-size:13px;font-family: Verdana;">
+ Phasellus eget enim eu lectus faucibus 
+ vestibulum.Suspendisse sodales
+ pellentesque elementum.</pre>
+<button style="width:20%;height:1%;outline-color: white;color:rgb(145, 141, 141);">Contact</button>
+    </div>
+    <div class="w2">
+        <img src="https://www.w3schools.com/w3images/team3.jpg" style="margin:0.5%;height:250px;width:350px"><br>
+        <span>Mike Ross<span><br><br>
+                <span style="background-color: aliceblue;color:rgb(145, 141, 141)">Architect</span><br>
+                <pre style="font-size:13px;font-family: Verdana;">
+ Phasellus eget enim eu lectus faucibus 
+ vestibulum.Suspendisse sodales
+ pellentesque elementum.
+</pre>
+                <button style="width:20%;height:1%;outline-color: white;color:rgb(145, 141, 141);">Contact</button>
+    </div>
+    <div class="w3">
+        <img src="https://www.w3schools.com/w3images/team4.jpg" style="margin:0.5%;height:250px;width:350px;display:inline-block"><br>
+        <span>Dan Star<span><br><br>
+                <span style="background-color: aliceblue;color:rgb(145, 141, 141)">Architect</span><br>
+                <pre style="font-size:13px;font-family: Verdana;">
+ Phasellus eget enim eu lectus faucibus 
+ vestibulum.Suspendisse sodales
+ pellentesque elementum.
+</pre>
+                <button style="width:20%;height:1%;outline-color: white;color:rgb(145, 141, 141);">Contact</button>
+    </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+<!-- code for contacts -->
+<div class="form contact">
+            <h2>Contact</h2>
+            <hr>
+            <p>Lets get in touch and talk about your next project.</p>
+            <form>
+                <input type="text"  placeholder="Name" required style="width:1300px;height:30px"><br><br>
+                <input type="email" placeholder="Email" required style="width:1300px;height:30px"><br><br>
+                <input type="text"  placeholder="Subject" required  style="width:1300px;height:30px"><br><br>
+                <textarea placeholder="Comment" required  style="width:1300px;height:30px;"></textarea><br>
+            <input type="submit" placeholder="Send Message"style="margin-top:3%;background-color: black;width:10%;height:9%;color:white;text-align:center;">
+            </form>
+</div>
+
+
+    <!-- code for map -->
+        <div class="map">
+         <img src="https://www.w3schools.com/w3images/map.jpg">
+       </div>
+
+
+<!-- code for footer -->
+        <footer style="height:8vh;width:100vw;background-color: black;position:absolute;top:55%;text-align: center;margin-top:150%;color:white;display:inline-block;">
+         <span>Powered by </span>
+         <a href="https://www.w3schools.com/w3css/tryw3css_templates_architect.htm">W3 schools</a>
+        </footer>
+
+</div> 
 </body>
 
-</html>,
+</html>
+
+

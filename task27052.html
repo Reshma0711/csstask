@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageGallery</title>
+    <style>
+     .main{
+        border:1px solid;
+        width:90vw;
+       display:grid;
+       grid-template-columns: (8,100px);
+       grid-template-rows: (8,100px);
+        gap:2px; 
+        justify-content: center;
+     }   
+     .i{
+        width:640px;
+        height:200px;
+        grid-row: 1/span 4;
+        grid-column:1/span 5;
+    
+     }
+
+     .j{
+        height:200px;
+        width:400px;
+     }
+     .k{
+        height:300px;
+        width:200px;
+     }  
+     .l{
+        height:300px;
+        width:200px;
+       
+     }
+     .m{
+        grid-row: 2/span 5;
+        height:300px;
+        width:395px;
+     }
+     .n{
+        width:240px;
+        height:300px;
+     }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="i"><img src="./images/w1.jpg"  width="640" height="200"></div>
+        <div class="m"><img src="./images/w3.jpg"  width="395" height="300"></div>
+        <div class="j"><img src="./images/w4.jpg"  width="400" height="200"></div>
+        <div class="l"><img src="./images/w2.jpg"  width="200" height="300"></div>
+        <div class="k"><img src="./images/w5.jpg"  width="200" height="300"></div> 
+        <div class="n"><img src="./images/w6.jpg"  width="240" height="300"></div> 
+      
+    </div>
+</body>
+</html>
+
+
