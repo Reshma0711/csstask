@@ -5,82 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ImageGallery</title>
     <style>
-     .main{
-        border:1px solid;
-        width:90vw;
-       display:grid;
-       grid-template-columns: (8,100px);
-       grid-template-rows: (8,100px);
-        gap:2px; 
-        justify-content: center;
-     }   
-     .i{
-        width:640px;
-        height:200px;
-        grid-row: 1/span 4;
-        grid-column:1/span 5;
-    
-     }
-
-     .j{
-        height:200px;
-        width:400px;
-     }
-     .k{
-        height:300px;
-        width:200px;
-     }  
-     .l{
-        height:300px;
-        width:200px;
+      /* @media screen and (min-width:768px) and (max-width:1024px) { */
+         
+      
+     .main {
+            display: grid;
+            grid-template-columns: repeat(7,100px);  
+            grid-template-rows:repeat(5,100px);
+            gap:2px;
+           
+      }
+      .j{
+         grid-row: 1/3;
+         grid-column: 1/3;
        
-     }
-     .m{
-        grid-row: 2/span 5;
-        height:300px;
-        width:395px;
-     }
-     .n{
-        width:240px;
-        height:300px;
-     }
-     .o{
-      width:640px;
-       height:200px;
-     }
-     .p{
-      width:395px; 
-      height:300px;
-     }
-     .q{
-      width:400px;
-       height:200px;
-     }
-      .r{
-         width:200px; 
-         height:300px;
+        
+      }
+      .k{
+         grid-row: 1/7;
+         grid-column:6/8;
+         grid-column-start: 6;
+      }
+      .l{
+         grid-row: 1/3 ;
+         grid-column:3/6;
+        
+      }
+      .m{
+         grid-row: 2/5 ;
+         grid-column:3/6;
+         grid-column-start: 1;
+         grid-row-start: 3;
+      }
+      .n{
+         grid-row: 4/6 ;
+         grid-column:1/6;
+         grid-column-start: 1;
+         grid-row-start: 5;
+      }
+       .o{
+        height:200px;
+        width:200px;
+      }
+      .p{
+         height:500px;
+         width:200px;
+      }
+      .q{
+         height:200px;
+         width:300px;
       }
       .s{
-         width:200px; 
-         height:300px;
+         height:200px;
+         width:500px;
       }
-      .t{
-         width:240px;
-         height:300px;
-      }
+      .r{
+         height:100px;
+         width:500px;
+      } 
     </style>
 </head>
 <body>
     <div class="main">
-        <div class="i"><img src="./images/w1.jpg" class="o"></div>
-        <div class="m"><img src="./images/w3.jpg" class="p"></div>
-        <div class="j"><img src="./images/w4.jpg" class="q"></div>
-        <div class="l"><img src="./images/w2.jpg" Class="r"></div>
-        <div class="k"><img src="./images/w5.jpg" class="s"></div> 
-        <div class="n"><img src="./images/w6.jpg" class="t"></div> 
-      
+        <div class="i j"><img src="./images/w1.jpg" class="o"></div>
+        <div class="i k"><img src="./images/w3.jpg" class="p"></div>
+        <div class="i l"><img src="./images/w4.jpg" class="q"></div>
+        <div class="i m"><img src="./images/w5.jpg" class="s"></div>
+        <div class="i n"><img src="./images/w2.jpg" Class="r"></div> 
+    
     </div>
 </body>
 </html>
+
+
 
 
