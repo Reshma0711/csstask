@@ -151,31 +151,41 @@ header{
       .int{
         font-size: 50%;
       }
-
-      .h{
-        display:inline-block;
-        width:"48%";
-         height:"90%" 
+      .gr{
+        margin-left:25%;
+        margin-top:10%;
+        display:grid;
+        grid-template-columns: repeat(6,100px);
+        grid-template-rows: repeat(8,100px) ;
       }
-      .i{
-        float: right;
-        margin-top:-31%;
-        display:inline-block;
-        width:48%;
-        height:70%;
+      .gr div{
+        background-color: skyblue;
       }
-      .j{
-        width:48%;
-         height:50%;
-         margin-top:-15%;
+      .a {
+        grid-row: 1/4;
+        grid-column:1/3;
+        grid-column-start: 1;
+        background-color: bisque;
       }
-      .k{
-        width:48%;
-         height:45%;
-        float:right;
-        margin-top:-65%;
-        display:inline-block;
+      .b {
+        grid-row: 3/6;
+         grid-column: 1/4;
+     grid-row-start: 3;
+    background-color: burlywood;
       }
+      .c{
+        grid-row: 1/3;
+        grid-column:4/6;
+        grid-column-start: 4;
+        background-color: yellow;
+      }
+      .d{
+        grid-row: 5/7;
+        grid-column:5/3;
+        grid-column-start: 1;
+      }
+      
+     
       @media screen and (max-width:520px){
 
         body{
@@ -244,15 +254,7 @@ header{
         .box2:hover {
             opacity:1;
         }
-        .a{
-        margin:0%;
-        }
-        .b{
-          margin-top:50%;
-        }
-        .c{
-          margin-top:80%;
-        }
+       
       }
     </style>
 </head>
@@ -377,21 +379,17 @@ header{
                 </div>
 
 
+              -->
 
-
-                <div class="parent">
-                   <div><img class="a h" src="https://www.w3schools.com/w3images/wedding.jpg"></div> 
-                    <div><img class="b i" src="https://www.w3schools.com/w3images/underwater.jpg"></div>
-                    <div><img class="c j" src="https://www.w3schools.com/w3images/rocks.jpg"></div>
-                    <div><img class="d k" src="https://www.w3schools.com/w3images/chef.jpg"></div>
-                    <div><img class="e" src="https://www.w3schools.com/w3images/wedding.jpg" width="48%" height="41%" style="float:right;margin-top:-32%;display:inline-block;"></div>
-                     <div><img class="f" src="https://www.w3schools.com/w3images/sailboat.jpg" width="48%" height="60%"></div>
-                     <div><img class="g" src="https://www.w3schools.com/w3images/p6.jpg" width="48%" height="60%" style="float:right;margin-top:-33.5%;"></div>  
-             </div>
-             
-            -->
-
-
+                <div class="gr">
+                  <div class="a">1</div>
+                  <div class="b">2</div>
+                  <div class="c">3</div>
+                  <div class="d"></div>
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
 
             <div class="cont">
                 <h3>Contact Me</h3><hr style="width:20%;margin-left:0%;">
@@ -457,7 +455,10 @@ header{
 
 
 
-<!-- @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }    -->
+<!-- <div><img class="a h" src="https://www.w3schools.com/w3images/wedding.jpg"></div> 
+<div><img class="b i" src="https://www.w3schools.com/w3images/underwater.jpg"></div>
+<div><img class="c j" src="https://www.w3schools.com/w3images/rocks.jpg"></div>
+<div><img class="d k" src="https://www.w3schools.com/w3images/chef.jpg"></div>
+<div><img class="e" src="https://www.w3schools.com/w3images/wedding.jpg" width="48%" height="41%" style="float:right;margin-top:-32%;display:inline-block;"></div>
+ <div><img class="f" src="https://www.w3schools.com/w3images/sailboat.jpg" width="48%" height="60%"></div>
+ <div><img class="g" src="https://www.w3schools.com/w3images/p6.jpg" width="48 -->

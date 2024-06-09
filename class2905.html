@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            border:1px solid black;
+            background-color: azure;
+            height:20vh;
+        }
+        .cd{
+            border:1px solid black;
+            background-color: bisque;
+            width:5%;
+            height:50%;
+        }
+       #translate:active~.parent .cd{
+            transform: translate(120px);
+        }
+        #scale:active~.parent .cd{
+            transform: scale(120px);
+        }
+        #rotate:active~.parent .cd{
+
+                    }   
+      </style>
+</head>
+<body>
+    <button id="translate">translate</button>
+    <button id="scale">scale</button>
+    <div class="parent">
+        <div class="cd">hello</div>
+    </div>
+    
+</body>
+</html>
